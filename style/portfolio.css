@@ -1,11 +1,30 @@
-body {
-  background: pink;
+:root {
+    -- primary-font-family: "Nunito", sans-serif;
+    -- secondary-font-family:"Comfortaa", cursive;
 }
 
 h1 {
-  font-family: "Comfortaa", cursive;
-  font-size: 48px;
+  font-family: var(secondary-font-family);
+  font-size: 80px;
 }
 h2 {
   font-family: "Nunito", sans-serif;
+  font-size: 36px;
+}
+.navbar{
+    color:
+}
+.hero {
+  background: #FF875B;
+  text-align: center;
+  font-family: var (--primary-font-family);
+  padding: 160px 60px;
+}
+.btn-branding{
+    border-radius: 4px;
+    padding:15px 30px;
+    background:#042550;
+    color: white;
+    font-size: 20px;
+    opacity: 90%;
 }
