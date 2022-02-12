@@ -1,29 +1,47 @@
 :root {
-  --primary-font-family: "Nunito", sans-serif;
-  --secondary-font-family: "Comfortaa", cursive;
+  --background-color: #f6f3eb;
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Oranienbaum", serif;
+  --primary-color: #cc9d58;
 }
-
+body {
+  background: var(--background-color);
+}
 h1 {
   font-family: var(--primary-font-family);
   font-size: 80px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 25px;
   font-family: var(--secondary-font-family);
 }
 
 .hero {
-  background: #ff875b;
-  text-align: center;
+  text-align: left;
   padding: 160px 60px;
-  color: #0a3163;
+  font-size: 10px;
 }
-.btn-branding {
-  border-radius: 4px;
-  padding: 15px 30px;
-  background: #0a3163;
-  color: white;
+.navbar-brand {
+  font-family: "Yeseva One", cursive;
+  color: var(--primary-color);
+  font-size: 40px;
+}
+.nav-item a {
+  font-family: var(--primary-font-family);
+  color: #757575;
+  font-weight: bold;
   font-size: 20px;
-  opacity: 90%;
-  font-family: var(--secondary-font-family);
+}
+
+.btn-branding {
+  border-radius: 28px;
+  border-color: none;
+  padding: 15px 30px;
+  color: black;
+  font-size: 35px;
+  font-family: var(--primary-font-family);
+}
+.btn-branding:hover {
+  background: var(--primary-color);
+  color: white;
 }
