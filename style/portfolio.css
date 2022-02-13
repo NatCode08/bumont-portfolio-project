@@ -3,6 +3,7 @@
   --primary-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Oranienbaum", serif;
   --primary-color: #cc9d58;
+  --text-color: #232323;
 }
 body {
   background: var(--background-color);
@@ -10,6 +11,8 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 30%;
+  color: #232323;
+  margin: 0 auto;
 }
 h1 {
   font-family: var(--secondary-font-family);
@@ -21,7 +24,21 @@ h2 {
   line-height: 41.85px;
   font-family: var(--primary-font-family);
 }
-
+p {
+  font-family: var(--primary-font-family);
+  font-size: 31px;
+}
+span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+footer {
+  color: var(--primary-color);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
 .hero {
   text-align: left;
   padding: 160px 60px;
@@ -60,12 +77,26 @@ h2 {
   color: white;
   border: 1px solid var(--primary-color);
 }
-footer {
-  color: var(--primary-color);
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 30px;
+.pola {
+  background: #dbb798;
+  border-radius: 28px;
+  padding: 10px 15px;
+  width: 230px;
 }
+.weather-app {
+  background: #9ca993;
+  border-radius: 28px;
+  padding: 10px 15px;
+  width: 230px;
+}
+.contact {
+  font-family: var(--secondary-font-family);
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
 .instagram-icon {
   margin-right: 20px;
   margin-left: 20px;
@@ -86,6 +117,22 @@ footer {
   h2 {
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  p {
+    font-family: var(--primary-font-family);
+    font-size: 13px;
+    margin-top: 3px;
+    text-align: center;
+  }
+  span {
+    font-size: 10px;
+  }
+  footer {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
   }
   .hero {
     text-align: left;
@@ -118,10 +165,23 @@ footer {
     line-height: 1px;
     margin-top: 60px;
   }
-  footer {
-    color: var(--primary-color);
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 30px;
+  .contact {
+    font-family: var(--secondary-font-family);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  .pola {
+    background: #dbb798;
+    border-radius: 28px;
+    padding: 10px 15px;
+    width: 190px;
+  }
+  .weather-app {
+    background: #9ca993;
+    border-radius: 28px;
+    padding: 10px 15px;
+    width: 180px;
   }
 }
