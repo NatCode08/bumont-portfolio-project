@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bumont Studio</title>
+    <title>Bumont Studio | Home</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,12 +26,11 @@
       href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto:wght@300;700&family=Yeseva+One&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-branding bg-branding position-fixed"
+      class="navbar navbar-expand-lg navbar-light style= background-color: #f6f3eb;"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="/">Bumont</a>
@@ -39,17 +38,17 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link active" aria-current="page" href="#">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -58,17 +57,31 @@
         </div>
       </div>
     </nav>
+    <hr style="height: 2px; width: 100%; color: black" />
     <div class="hero">
-      <h1 class="mb-5">Hello there,</h1>
-      <div class="col-sm-8">
-        <h2>
-          We’re an integrated web developement and creative agency, the place
-          where ideas, media and technology meet. From design to development,
-          our studio makes smart and great things come to life.
-        </h2>
+      <h1 class="mb-5">
+        Hello <br />
+        there,
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>
+              We’re an integrated web developement and creative agency, the
+              place where ideas, media and technology meet. From design to
+              development, our studio makes smart and great things come to life.
+            </h2>
+            <button class="btn-call-to-action">Come say hi!</button>
+          </div>
+          <div class="col-6">
+            <img src="images/image-hero.png" alt="" class="img-fluid" />
+          </div>
+        </div>
       </div>
-
-      <button class="mt-5 mb-5 btn-branding">Come say hi!</button>
     </div>
+    <footer>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-behance"></i>
+    </footer>
   </body>
 </html>
