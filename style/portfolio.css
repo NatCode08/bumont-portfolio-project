@@ -78,3 +78,50 @@ footer {
   margin-right: 20px;
   margin-left: 20px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .hero {
+    text-align: left;
+    padding: 80px 60px;
+  }
+  .navbar-brand {
+    font-family: "Yeseva One", cursive;
+    color: var(--primary-color);
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .nav-item a {
+    font-family: var(--primary-font-family);
+    color: #757575;
+    font-weight: bold;
+    font-size: 13px;
+    float: right;
+  }
+  .btn-call-to-action {
+    background: var(--background-color);
+    padding: 15px 30px;
+    font-size: 13px;
+    font-family: var(--primary-font-family);
+    border-radius: 28px;
+    border: 1px solid black;
+    width: 140px;
+    height: 10px;
+    left: 126px;
+    top: 213px;
+    line-height: 1px;
+    margin-top: 60px;
+  }
+  footer {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
