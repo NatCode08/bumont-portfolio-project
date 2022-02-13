@@ -6,6 +6,10 @@
 }
 body {
   background: var(--background-color);
+  background-image: url(images/image-hero.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30%;
 }
 h1 {
   font-family: var(--secondary-font-family);
@@ -16,9 +20,6 @@ h2 {
   font-size: 31px;
   line-height: 41.85px;
   font-family: var(--primary-font-family);
-}
-img {
-  margin: 0 auto;
 }
 
 .hero {
@@ -58,4 +59,22 @@ img {
   background: var(--primary-color);
   color: white;
   border: 1px solid var(--primary-color);
+}
+footer {
+  color: var(--primary-color);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.instagram-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.behance-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.pinterest-icon {
+  margin-right: 20px;
+  margin-left: 20px;
 }
