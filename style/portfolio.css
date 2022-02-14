@@ -7,10 +7,6 @@
 }
 body {
   background: var(--background-color);
-  background-image: url(images/image-hero.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 30%;
   color: #232323;
   margin: 0 auto;
 }
