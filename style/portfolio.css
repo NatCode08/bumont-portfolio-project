@@ -10,9 +10,8 @@ body {
   background-image: url(../images/image-hero.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 30%;
+  background-size: 50%;
   color: #232323;
-  margin: 0 auto;
 }
 h1 {
   font-family: var(--secondary-font-family);
