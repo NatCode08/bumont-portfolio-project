@@ -111,6 +111,12 @@ footer {
   margin-right: 20px;
   margin-left: 20px;
 }
+.about {
+  color: #626c5c;
+}
+.work {
+  color: #976567;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 80px;
