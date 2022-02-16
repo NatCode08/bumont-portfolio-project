@@ -7,10 +7,7 @@
 }
 body {
   background: var(--background-color);
-  background-image: url(../images/image-hero.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50%;
+
   color: #232323;
 }
 h1 {
@@ -37,6 +34,12 @@ footer {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 30px;
+}
+.content-design {
+  background-image: url(../images/image-hero.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
 }
 .hero {
   text-align: left;
