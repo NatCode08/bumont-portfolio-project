@@ -34,22 +34,11 @@ footer {
   margin-top: 80px;
   margin-bottom: 30px;
 }
-
 footer a {
   padding: 20px;
-}
-footer .homepage-links a {
   color: var(--primary-color);
 }
-footer .about-links a {
-  color: #626c5c;
-}
-footer .work-links a {
-  color: #976567;
-}
-footer .contact-links a {
-  color: #232323;
-}
+
 .content-design {
   background-image: url(../images/image-hero.png);
   background-repeat: no-repeat;
