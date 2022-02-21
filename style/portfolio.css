@@ -39,7 +39,7 @@ footer {
   background-image: url(../images/image-hero.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 50%;
+  background-size: 30%;
 }
 .hero {
   text-align: left;
@@ -91,7 +91,7 @@ footer {
   padding: 10px 15px;
   width: 230px;
 }
-.contact {
+.contact-page {
   font-family: var(--secondary-font-family);
   font-size: 60px;
   line-height: 60px;
@@ -116,6 +116,9 @@ footer {
 }
 .work {
   color: #976567;
+}
+.contact {
+  color: #232323;
 }
 @media (max-width: 900px) {
   h1 {
@@ -146,6 +149,12 @@ footer {
     text-align: left;
     padding: 80px 60px;
   }
+  .content-design {
+    background-image: url(../images/image-hero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+  }
   .navbar-brand {
     font-family: "Yeseva One", cursive;
     color: var(--primary-color);
@@ -173,7 +182,7 @@ footer {
     line-height: 1px;
     margin-top: 60px;
   }
-  .contact {
+  .contact-page {
     font-family: var(--secondary-font-family);
     font-size: 30px;
     line-height: 30px;
@@ -191,5 +200,17 @@ footer {
     border-radius: 28px;
     padding: 10px 15px;
     width: 180px;
+  }
+  .about-links {
+    color: #626c5c;
+  }
+  .work-links {
+    color: #976567;
+  }
+  .contact-links {
+    color: #232323;
+  }
+  .mail-logo {
+    color: var(--primary-color);
   }
 }
