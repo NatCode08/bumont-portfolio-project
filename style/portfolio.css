@@ -18,8 +18,9 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 41.85px;
-  font-family: var(--secondary-font-family);
+  font-family: var(--primary-font-family);
 }
+
 p {
   font-family: var(--primary-font-family);
   font-size: 31px;
@@ -38,7 +39,9 @@ footer a {
   padding: 20px;
   color: var(--primary-color);
 }
-
+footer a:hover {
+  color: #9ca993;
+}
 .content-design {
   background-image: url(../images/image-hero.png);
   background-repeat: no-repeat;
@@ -83,9 +86,20 @@ footer a {
   color: white;
   border: 1px solid var(--primary-color);
 }
+.name {
+  font-family: var(--secondary-font-family);
+  background: #dbb798;
+  font-size: 55px;
+  border-radius: 20px;
+  padding: 15px;
+}
 .about-me {
   margin: 0;
   font-family: var(--primary-font-family);
+  font-size: 21px;
+}
+.about-paragraph {
+  font-size: 28px;
 }
 .pola {
   background: #dbb798;
@@ -99,6 +113,7 @@ footer a {
   padding: 10px 15px;
   width: 230px;
 }
+
 .contact-page {
   font-family: var(--secondary-font-family);
   font-size: 60px;
@@ -193,14 +208,9 @@ footer a {
     padding: 10px 15px;
     width: 180px;
   }
-  .about-links {
-    color: #626c5c;
-  }
-  .work-links {
-    color: #976567;
-  }
-  .contact-links {
-    color: #232323;
+  .about-paragraph {
+    font-size: 13px;
+    text-align: center;
   }
   .mail-logo,
   .mail {
