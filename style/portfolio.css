@@ -92,7 +92,7 @@ footer a:hover {
   font-size: 55px;
   border-radius: 20px;
   padding: 15px;
-  margin-right: 120px;
+  margin-right: 290px;
 }
 .about-me {
   margin: 0;
@@ -132,6 +132,9 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
+  body {
+    margin: 0 30px 0 30px;
+  }
   h1 {
     font-size: 80px;
     line-height: 70px;
@@ -193,6 +196,19 @@ footer a:hover {
     line-height: 1px;
     margin-top: 60px;
   }
+  .name {
+    font-family: var(--secondary-font-family);
+    background: #dbb798;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-right: 0;
+  }
+  .about-me {
+    margin: 0;
+    font-family: var(--primary-font-family);
+    font-size: 15px;
+  }
   .contact-page {
     font-family: var(--secondary-font-family);
     font-size: 30px;
@@ -219,5 +235,8 @@ footer a:hover {
   .mail-logo,
   .mail {
     color: var(--primary-color);
+  }
+  .open-source {
+    font-size: 10px;
   }
 }
