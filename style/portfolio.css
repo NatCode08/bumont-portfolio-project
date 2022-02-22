@@ -92,6 +92,7 @@ footer a:hover {
   font-size: 55px;
   border-radius: 20px;
   padding: 15px;
+  margin-right: 120px;
 }
 .about-me {
   margin: 0;
@@ -125,6 +126,9 @@ footer a:hover {
 .mail-logo,
 .mail {
   color: var(--primary-color);
+}
+.open-source {
+  font-size: 15px;
 }
 
 @media (max-width: 900px) {
