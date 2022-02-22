@@ -76,6 +76,7 @@ footer a:hover {
   border: 1px solid black;
   width: 269px;
   height: 55px;
+  color: var(--text-color);
   left: 253px;
   top: 853px;
   line-height: 20px;
