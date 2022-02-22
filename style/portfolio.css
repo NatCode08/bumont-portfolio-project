@@ -185,11 +185,11 @@ footer a:hover {
   .btn-call-to-action {
     background: var(--background-color);
     padding: 15px 30px;
-    font-size: 13px;
+    font-size: 18px;
     font-family: var(--primary-font-family);
     border-radius: 28px;
     border: 1px solid black;
-    width: 140px;
+    width: 170px;
     height: 10px;
     left: 126px;
     top: 213px;
@@ -200,6 +200,7 @@ footer a:hover {
     font-family: var(--secondary-font-family);
     background: #dbb798;
     font-size: 28px;
+    line-height: 1;
     border-radius: 20px;
     padding: 15px;
     margin-right: 10px;
